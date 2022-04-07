@@ -1,0 +1,5 @@
+marks=c(70,95,80,74,60)
+barplot(marks)
+barplot(marks,main="comparision of five marks",xlab="subject",ylab="marks",names.arg=c("cp","physics","maths","chemistry","eng"))
+barplot(marks,main="comparision of five marks",xlab="subject",ylab="marks",names.arg=c("cp","physics","maths","chemistry","eng"),col="purple")
+barplot(marks,main="comparision of five marks",xlab="subject",ylab="marks",names.arg=c("cp","physics","maths","chemistry","eng"),col="purple",horiz="FALSE")

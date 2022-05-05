@@ -1,0 +1,17 @@
+m1=matrix(1:20,nrow=5,ncol=4)
+print("5x4 matrix:")
+print(m1)
+
+cells=c(1,3,5,7,8,9,11,12,14)
+rnames=c("row1","row2","row3")
+cnames=c("col1","col2","col3")
+m2=matrix(cells,nrow=3,ncol=3,byrow=TRUE,dimnames=list(rnames,cnames))
+print("3x3 matrix with labels,filled by rows:")
+print(m2)
+
+cell1=c(1,2,3,4)
+rnames1=c("row1","row2")
+cnames1=c("col1","col2")
+m3=matrix(cell1,nrow=2,ncol=2,byrow=FALSE,dimnames=list(rnames1,cnames1))
+print("2x2 matrix with labels,filled by cols:")
+print(m3)

@@ -1,0 +1,7 @@
+x=c(10,NULL,20,30,NA)
+print("sum:")
+print(sum(x,na.rm=TRUE))
+print("mean:")
+print(mean(x,na.rm=TRUE))
+print("product:")
+print(prod(x,na.rm=TRUE))
